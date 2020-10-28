@@ -23,7 +23,7 @@
   "binary" :
   {
     "module_name" : "deasync",
-    "module_path" : "./binding/",
+    "module_path" : "./Release/",
     "host" : "https://github.com/Wandalen/wDeasync/releases/download/",
     "remote_path" : "{version}"
   },
