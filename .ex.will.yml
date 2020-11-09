@@ -19,9 +19,13 @@ about :
   - 'Volodymyr M. <volodymyr.migdal@gmail.com>'
   npm.name : 'wdeasync'
   npm.scripts :
-    install : 'node-gyp configure && node-gyp rebuild --msvs_version=auto'
-    test : 'wtest .run test.test/**'
-    clean : 'rm -rf build node_modules'
+    install : node-pre-gyp install --update-binary --fallback-to-build
+    postinstall : node postinstall.js
+    node-pre-gyp-install : node-pre-gyp install --update-binary --fallback-to-build
+    node-pre-gyp-build : node-pre-gyp configure && node-pre-gyp rebuild
+    node-pre-gyp-package : node-pre-gyp package
+    node-pre-gyp-github-release : node-pre-gyp-github publish --release
+    test : node spec
 
 path :
 

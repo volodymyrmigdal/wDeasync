@@ -7,3 +7,5 @@
 /test/
 /node-src/
 *.sublime-workspace
+package-lock.json
+/Release
