@@ -1,6 +1,6 @@
 {
   "name" : "wdeasync",
-  "version" : "0.1.27",
+  "version" : "0.1.28",
   "description" : "Turns async function into sync via JavaScript wrapper of Node event loop",
   "main" : "index.js",
   "author" : "Kostiantyn Wandalen <wanalen@01.school>",
@@ -13,7 +13,7 @@
   "scripts" :
   {
     "install" : "node-pre-gyp install --update-binary --fallback-to-build",
-    "postinstall": "node postinstall.js",
+    "postinstall" : "node postinstall.js",
     "node-pre-gyp-install" : "node-pre-gyp install --update-binary --fallback-to-build",
     "node-pre-gyp-build" : "node-pre-gyp configure && node-pre-gyp rebuild",
     "node-pre-gyp-package" : "node-pre-gyp package",
