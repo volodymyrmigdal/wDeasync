@@ -20,7 +20,7 @@
     "node-pre-gyp-github-release" : "node-pre-gyp-github publish --release",
     "test" : "node spec"
   },
-  "files" : [ "binding.gyp", "src", "index.js", "postinstall.js" ],
+  "files" : [ "binding.gyp", "src", "index.js", "postinstall.js", "quick-test.js" ],
   "binary" :
   {
     "module_name" : "deasync",
