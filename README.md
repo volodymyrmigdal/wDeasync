@@ -1,6 +1,6 @@
 DeAsync.js
 =
-[![status](https://github.com/Wandalen/wDeasync/workflows/publish/badge.svg)](https://github.com/Wandalen/wDeasync/actions?query=workflow%3Apublish) [![NPM version](http://img.shields.io/npm/v/deasync.svg)](https://www.npmjs.org/package/deasync)
+[![status](https://github.com/Wandalen/wDeasync/workflows/publish/badge.svg)](https://github.com/Wandalen/wDeasync/actions?query=workflow%3Apublish) [![NPM version](http://img.shields.io/npm/v/wdeasync.svg)](https://www.npmjs.org/package/wdeasync)
 
 DeAsync turns async function into sync, implemented with a blocking mechanism by calling Node.js event loop at JavaScript layer. The core of deasync is writen in C++.
 
