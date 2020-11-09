@@ -1,6 +1,6 @@
 {
   "name" : "wdeasync",
-  "version" : "0.1.28",
+  "version" : "0.1.29",
   "description" : "Turns async function into sync via JavaScript wrapper of Node event loop",
   "main" : "index.js",
   "author" : "Kostiantyn Wandalen <wanalen@01.school>",
@@ -20,7 +20,7 @@
     "node-pre-gyp-github-release" : "node-pre-gyp-github publish --release",
     "test" : "node spec"
   },
-  "files" : [ "binding.gyp", "src", "index.js" ],
+  "files" : [ "binding.gyp", "src", "index.js", "postinstall.js" ],
   "binary" :
   {
     "module_name" : "deasync",
