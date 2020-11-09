@@ -13,6 +13,7 @@
   "scripts" :
   {
     "install" : "node-pre-gyp install --update-binary --fallback-to-build",
+    "postinstall": "node postinstall.js",
     "node-pre-gyp-install" : "node-pre-gyp install --update-binary --fallback-to-build",
     "node-pre-gyp-build" : "node-pre-gyp configure && node-pre-gyp rebuild",
     "node-pre-gyp-package" : "node-pre-gyp package",
