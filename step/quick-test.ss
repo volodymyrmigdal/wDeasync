@@ -1,6 +1,6 @@
 const assert = require('assert')
 var ret,
-  deasync = require('./index.js')
+  deasync = require('../index.js')
 setTimeout(function() {
   ret = 'pass'
 }, 100)
