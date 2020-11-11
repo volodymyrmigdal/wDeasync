@@ -1,3 +1,3 @@
 var requireDirectory = require('require-directory')
-require('../quick-test')
+require('../QuickTest.ss')
 requireDirectory(module)
