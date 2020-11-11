@@ -12,7 +12,7 @@
   "license" : "MIT",
   "scripts" :
   {
-    "install" : "node step/install.ss",
+    "install" : "node step/Install.ss",
     "node-pre-gyp-install" : "node-pre-gyp install --update-binary --fallback-to-build",
     "node-pre-gyp-build" : "node-pre-gyp configure && node-pre-gyp rebuild",
     "node-pre-gyp-package" : "node-pre-gyp package",
