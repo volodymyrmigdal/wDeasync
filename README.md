@@ -1,4 +1,4 @@
-DeAsync.js
+wDeasync
 =
 [![status](https://github.com/Wandalen/wDeasync/workflows/publish/badge.svg)](https://github.com/Wandalen/wDeasync/actions?query=workflow%3Apublish) [![NPM version](http://img.shields.io/npm/v/wdeasync.svg)](https://www.npmjs.org/package/wdeasync)
 
