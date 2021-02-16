@@ -1,4 +1,3 @@
-
 ( function _QuickTest_() {
   
   let assert = require( 'assert' );
